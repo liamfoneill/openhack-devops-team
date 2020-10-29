@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	tripSvc "github.com/Azure-Samples/openhack-devops-team/apis/trips/tripsgo"
+	tripSvc "github.com/liamfoneill/openhack-devops-team/apis/trips/tripsgo"
 )
 
 var healthRouteTests = []tripSvc.APITestCase{
