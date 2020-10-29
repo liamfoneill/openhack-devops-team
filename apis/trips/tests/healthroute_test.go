@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 	"testing"
-        tripSvc "github.com/liamfoneill/openhack-devops-team/apis/trips/tripsgo"
+        tripSvc "./apis/trips/tripsgo"
 )
 
 var healthRouteTests = []tripSvc.APITestCase{
