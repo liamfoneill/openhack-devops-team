@@ -6,6 +6,6 @@ WORKDIR  /app
 
 EXPOSE 8080
 
-RUN npm install -g
+RUN npm install
 
 CMD npm start
