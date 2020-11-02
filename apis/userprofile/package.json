@@ -8,6 +8,7 @@
     },
     "bugs": "http://github.com/Azure-Samples/openhack-devops-team/issues",
     "dependencies": {
+        "applicationinsights": "^1.8.7",
         "body-parser": "^1.18.3",
         "express": "^4.16.3",
         "express4-tedious": "^0.3.0",
