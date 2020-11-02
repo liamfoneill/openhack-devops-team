@@ -19,6 +19,7 @@ var logger = morgan(':remote-addr [:date[web]] :method :url HTTP/:http-version :
 
 //Enable Azure Application Insights
 let appInsights = require('applicationinsights');
+appInsights.setup();
 appInsights.start();
 
 App.use(logger);
